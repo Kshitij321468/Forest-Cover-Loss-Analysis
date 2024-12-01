@@ -56,7 +56,7 @@ The objective is to identify and visualize migration trends, uncover key insight
 
 2. Navigate to the project directory:
 
-   cd Migration_Patterns_Analysis
+   cd forest_cover_Analysis
 
 3. Install the required libraries:
 
@@ -70,19 +70,18 @@ The objective is to identify and visualize migration trends, uncover key insight
 
 ## Analysis and Insights
 - Provide a summary of key findings, such as:
-  - Major migration routes
-  - Seasonal migration trends
-  - Economic and social factors driving migration
+  - To analysis sesonal forest cover analysis 
+  - Seasonal forest cover analysis  
+  
 
 ## Visualizations
 - Include sample visualizations like:
-  - Heatmaps showing migration density
-  - Line charts tracking migration trends over time
-  - Comparative bar charts for rural vs. urban migration
+  - Heatmaps Seasonal forest cover analysis 
+  - Comparative bar charts for Seasonal forest cover analysis   
 
 ## Challenges Faced
 - Data cleaning issues (e.g., missing or incomplete data) 
 - Handling large datasets
-- Visualizing complex migration patterns
+- Visualizing complex Forest cover  loss analysis 
 
 

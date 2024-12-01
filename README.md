@@ -39,15 +39,15 @@ Charmi Gondaliya [KU2407U268]
 ---
 
 ## Introduction
-This project explores migration patterns within India and globally. Using data-driven analysis, we aim to understand key trends, factors influencing migration, and the socio-economic impact. The project involves data preprocessing, statistical analysis, and visualization of migration flows.
+This project explores Forest cover loss  within India and globally. Using data-driven analysis, we aim to understand key trends, factors of Forest Cover loss , and the socio-economic impact. The project involves data preprocessing, statistical analysis, and visualization of Forst cover loss 
 
 ## Objective
-The objective is to identify and visualize migration trends, uncover key insights, and present a clear understanding of patterns in population movement over time. 
+The objective is to identify and visualize Forest cover loss , uncover key insights, and present a clear understanding of patterns in population movement over time. 
 
 
 # Data Sources
 - (Include the datasets or public data repositories used for the project)
-- Mention sources such as census data, UN migration reports, or any open datasets.
+- Mention sources such as census data, Forest cover loss  reports, or any open datasets.
 
 ## Installation
 1. Clone the repository:

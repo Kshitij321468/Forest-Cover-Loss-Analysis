@@ -13,4 +13,33 @@ Team member
        1. pandas 
        2. Nampy 
        3. seashore 
-       
+
+       Forest cover loss Analysis 
+
+## Contributors
+Kshitij Gujar  [KU2407U323]
+Diya chauhan   [KU2407U278]
+Shrey Patel    [KU2407U377]
+Dev vyas       [KU2407U271]
+Charmi Gondaliya [KU2407U268]  
+
+## Table of Contents
+1. [Introduction]
+2. [Objective]
+3. [Tools and Libraries Used]
+4. [Data Sources]
+5. [Installation]
+6. [Usage]
+7. [Analysis and Insights]
+8. [Visualizations]
+9. [Challenges Faced]
+10. [Contributors]
+11. [License]
+
+---
+
+## Introduction
+This project explores migration patterns within India and globally. Using data-driven analysis, we aim to understand key trends, factors influencing migration, and the socio-economic impact. The project involves data preprocessing, statistical analysis, and visualization of migration flows.
+
+## Objective
+The objective is to identify and visualize migration trends, uncover key insights, and present a clear understanding of patterns in population movement over time.

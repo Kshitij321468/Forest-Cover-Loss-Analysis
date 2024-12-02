@@ -3,12 +3,12 @@ orest cover loss analysis involves studying the reduction in the area of forests
 
 
 Team member 
-1. VIRAJ
-2. ABHI
-3. HEVIN
-4. JAY BAROT
-5. KALP
-6. ARYAN 
+1. Kshitij 
+2. diya 
+3. shrey 
+4. Dev 
+5. Charmi 
+
 
        Libraries are used in this project 
        1. pandas 
@@ -18,12 +18,12 @@ Team member
        Forest cover loss Analysis 
 
 ## Contributors
-1. VIRAJ   KU2407U387
-2. ABHI    KU2407U247
-3. HEVIN   KU2407U293
-4. JAY BAROT KU2407U264
-5. KALP   KU2407U308
-6. ARYAN KU2407U257 
+1. Kshitij Gujar(KU2407U323)
+2. Diya chauhan(KU2407U278)
+3. Shrey patel(KU2407U377)
+4. Dev vyas(KU2407U271)
+5. charmi Gondaliya(KU2407U268)
+
   
 
 ## Table of Contents

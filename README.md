@@ -3,11 +3,11 @@ orest cover loss analysis involves studying the reduction in the area of forests
 
 
 Team member 
-1. Kshitij 
-2. diya 
-3. shrey 
-4. Dev 
-5. Charmi 
+1. Kshitij Gujar
+2. Diya chauhan
+3. shrey patel
+4. Dev Vyas
+5. Charmi Gondaliya
 
 
        Libraries are used in this project 

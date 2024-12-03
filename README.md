@@ -88,3 +88,56 @@ The objective is to identify and visualize Forest cover loss , uncover key insig
 - Visualizing complex Forest cover  loss analysis 
 
 
+# Import necessary libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import rasterio
+from rasterio.plot import show
+
+# List of years with corresponding GeoTIFF file paths
+years = [2020, 2021, 2022]  # Example years
+file_paths = [f"forest_{year}.tif" for year in years]  # Replace with actual file paths
+
+# Initialize storage for deforested areas
+deforested_areas = []
+
+# Function to load GeoTIFF data
+def load_raster(file_path):
+    with rasterio.open(file_path) as src:
+        data = src.read(1)  # Read the first band
+        meta = src.meta  # Metadata for resolution
+    return data, meta
+
+# Process data for each pair of consecutive years
+for i in range(len(file_paths) - 1):
+    # Load raster data for the current year and next year
+    current_data, meta = load_raster(file_paths[i])
+    next_data, _ = load_raster(file_paths[i + 1])
+
+    # Calculate forest change (deforestation)
+    forest_change = next_data - current_data
+
+    # Calculate deforested area (pixels with negative change)
+    pixel_resolution = meta['transform'][0]  # Pixel size in meters
+    deforested_area = np.sum(forest_change < 0) * pixel_resolution**2  # Area in square meters
+    deforested_areas.append(deforested_area)
+
+    # Visualize the forest change
+    plt.figure(figsize=(10, 6))
+    show(forest_change, cmap='RdYlGn', title=f"Forest Change ({years[i]}-{years[i+1]})")
+    plt.colorbar(label="Change in Forest Cover")
+    plt.show()
+
+    # Print the calculated deforested area
+    print(f"Deforested Area from {years[i]} to {years[i+1]}: {deforested_area} square meters")
+
+# Plot deforestation trend over years
+plt.figure(figsize=(8, 5))
+plt.plot(years[:-1], deforested_areas, marker='o', linestyle='-', color='red')
+plt.title("Yearly Deforestation Trends")
+plt.xlabel("Year")
+plt.ylabel("Deforested Area (sq meters)")
+plt.grid(True)
+plt.show()
+
+print("Analysis Complete!")

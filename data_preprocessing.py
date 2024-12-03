@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # File paths
-input_file_path = "../data/crime_data_raw.csv"  # Raw data file
-output_file_path = "../data/crime_data_cleaned.csv"  # Cleaned data file
+input_file_path = "../data/Forst_cover_analysis.csv"  # Raw data file
+output_file_path = "../data/Forest_cover_cleaned.csv"  # Cleaned data file
 
 # Check if the raw data file exists
 if os.path.exists(input_file_path):
